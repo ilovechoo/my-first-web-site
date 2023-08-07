@@ -4,9 +4,8 @@
 <head>
     <title>Susanchoo Diary</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="C:\Users\user\Desktop\web\HTML, CSS/style.css">
     <script>
-        function LinksSetColor(color){
+    function LinksSetColor(color){
         var alist = document.querySelectorAll('a');
         var i =0;
         while(i < alist.length){
@@ -15,23 +14,23 @@
         }
       }
         function BodySetColor(color){
-        document.querySelector ('body').style.color = color;
+            document.querySelector('body').style.color = color;
         }
         function BodySetBackgroundColor(color){
-        document.querySelector ('body').style.backgroundColor = color;
+            document.querySelector('body').style.backgroundColor = color;
         }
         
         function nightDayHandler(self){
-         var target = document.querySelector ('body');
+         var target = document.querySelector('body');
         if(self.value === 'night') {
         Body.setBackgroundColor('black');
-        Body.setColor = ('white');
+        Body.setColor('white');
         self.value = 'day';
 
-        LinksSetColor('powderblue');
+        Links.setColor('powderblue');
         } else {
         Body.setBackgroundColor('white');
-        Body.setColor = ('black');
+        Body.setColor('black');
         self.value = 'night';
     
 
@@ -55,7 +54,7 @@
             <h2 style="background-color: gray; color: black">Susan's Diary</h2>
         <p>
             <a href="image.css" target="blank" title="html15 speicifi">
-            <strong><u>susan choo</u></strong></a> is the cutest cat in the world.
+            <strong><u>Susan choo</u></strong></a> is the cutest cat in the world.
         </p>
         <p><img src="sch.jpg" width="20%"></p> 
         </div>
