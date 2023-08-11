@@ -24,7 +24,7 @@ var Links = {
     Body.setColor('white');
     self.value = 'day';
 
-    Links.setcolor('powderblue');
+    Links.setcolor('yellow');
     } else {
     Body.setBackgroundColor('white');
     Body.setColor('black');
